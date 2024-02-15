@@ -1,0 +1,34 @@
+{
+    "items": [
+        {
+            "ID": "1",
+            "Url": "https://www.compartimoss.com/revistas/numero-58/",
+            "Text": "¿Qué es Microsoft 365?",
+            "Description": "Microsoft 365 está diseñado para ayudarte a mejorar la productividad con las aplicaciones innovadoras de Office, servicios inteligentes en la nube y seguridad de primer nivel."
+        },
+        {
+            "ID": "2",
+            "Url": "https://www.compartimoss.com/revistas/numero-58/",
+            "Text": "¿Qué es SharePoint Online?",
+            "Description": "SharePoint es una herramienta de productividad de la cartera de soluciones empresariales de Microsoft 365 (antes Office 365). Permite a las personas comunicarse y colaborar como nunca antes. Con unos pocos clics, su equipo puede elaborar, editar y personalizar contenido."
+        },
+        {
+            "ID": "3",
+            "Url": "https://www.compartimoss.com/revistas/numero-58/",
+            "Text": "¿Qué es Power Platform?",
+            "Description": "Manténgase ágil y desarrolle soluciones que hagan avanzar su negocio con el único conjunto de herramientas con poco código que sus equipos necesitan. Power Platform está desarrollado para trabajar en todos los niveles con capacidades de seguridad, administración y cumplimiento sólidas, además de disponer de espacio para crecer."
+        },
+        {
+            "ID": "4",
+            "Url": "https://www.compartimoss.com/revistas/numero-58/",
+            "Text": "¿Qué es Microsoft Azure?",
+            "Description": "La plataforma Azure está compuesta por más de 200 productos y servicios en la nube diseñados para ayudarle a dar vida a nuevas soluciones que permitan resolver las dificultades actuales y crear el futuro. Cree, ejecute y administre aplicaciones en varias nubes, en el entorno local y en el perímetro, con las herramientas y los marcos que prefiera."
+        },
+        {
+            "ID": "5",
+            "Url": "https://www.compartimoss.com/revistas/numero-58/",
+            "Text": "¿Qué es Viva Suite?",
+            "Description": "El Microsoft Viva suite es un conjunto de aplicaciones de experiencia de empleados que se pueden usar individualmente o combinar para satisfacer las necesidades de su organización. "
+        }
+    ]
+}
