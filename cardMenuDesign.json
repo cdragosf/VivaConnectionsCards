@@ -1,0 +1,401 @@
+{
+    "type": "AdaptiveCard",
+    "body": [
+        {
+            "type": "Container",
+            "bleed": true,
+            "backgroundImage": {
+                "url": "https://raw.githubusercontent.com/pnp/AdaptiveCards-Templates/main/samples/visual-list/assets/cafe.jpg"
+            },
+            "items": [
+                {
+                    "type": "ColumnSet",
+                    "columns": [
+                        {
+                            "type": "Column",
+                            "width": "auto",
+                            "style": "default",
+                            "items": [
+                                {
+                                    "type": "ColumnSet",
+                                    "columns": [
+                                        {
+                                            "type": "Column",
+                                            "width": "auto",
+                                            "items": [
+                                                {
+                                                    "type": "TextBlock",
+                                                    "text": "Horario",
+                                                    "wrap": true,
+                                                    "color": "Default",
+                                                    "weight": "Bolder",
+                                                    "size": "Small"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "Column",
+                                            "width": "auto",
+                                            "items": [
+                                                {
+                                                    "type": "TextBlock",
+                                                    "text": "🕝",
+                                                    "wrap": true,
+                                                    "horizontalAlignment": "Center",
+                                                    "isSubtle": true
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "Column",
+                                            "width": "stretch",
+                                            "items": [
+                                                {
+                                                    "type": "TextBlock",
+                                                    "text": "13:30 - 15:30",
+                                                    "wrap": true,
+                                                    "color": "Attention",
+                                                    "weight": "Default",
+                                                    "size": "Small",
+                                                    "spacing": "Small"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "TextBlock",
+                                    "text": "Cafeteria Novus",
+                                    "wrap": true,
+                                    "size": "ExtraLarge",
+                                    "weight": "Bolder",
+                                    "spacing": "Medium"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Column",
+                            "width": "stretch"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "Container",
+            "style": "default",
+            "bleed": true,
+            "items": [
+                {
+                    "type": "Container",
+                    "minHeight": "24px",
+                    "items": [
+                        {
+                            "type": "ColumnSet",
+                            "columns": [
+                                {
+                                    "type": "Column",
+                                    "width": "stretch",
+                                    "items": [
+                                        {
+                                            "type": "TextBlock",
+                                            "text": "MENÚ",
+                                            "wrap": true,
+                                            "weight": "Bolder",
+                                            "horizontalAlignment": "Center"
+                                        },
+                                        {
+                                            "type": "Container",
+                                            "backgroundImage": {
+                                                "url": "https://raw.githubusercontent.com/pnp/AdaptiveCards-Templates/main/samples/visual-list/assets/line_pivot_dark.svg",
+                                                "fillMode": "RepeatHorizontally",
+                                                "verticalAlignment": "Center"
+                                            },
+                                            "minHeight": "8px",
+                                            "spacing": "None"
+                                        }
+                                    ],
+                                    "horizontalAlignment": "Center",
+                                    "minHeight": "44px",
+                                    "verticalContentAlignment": "Top"
+                                },
+                                {
+                                    "type": "Column",
+                                    "width": "stretch",
+                                    "items": [
+                                        {
+                                            "type": "TextBlock",
+                                            "text": "INFO",
+                                            "wrap": true,
+                                            "horizontalAlignment": "Center",
+                                            "weight": "Bolder",
+                                            "color": "Accent"
+                                        },
+                                        {
+                                            "type": "Container",
+                                            "backgroundImage": {
+                                                "url": "https://raw.githubusercontent.com/pnp/AdaptiveCards-Templates/main/samples/visual-list/assets/line_pivot_dark.svg",
+                                                "fillMode": "RepeatHorizontally",
+                                                "verticalAlignment": "Center"
+                                            },
+                                            "minHeight": "8px",
+                                            "spacing": "None",
+                                            "isVisible": false
+                                        }
+                                    ],
+                                    "selectAction": {
+                                        "type": "Action.ToggleVisibility",
+                                        "targetElements": [
+                                            "tab_info",
+                                            "tab_menu"
+                                        ]
+                                    },
+                                    "id": "show_info",
+                                    "minHeight": "44px"
+                                }
+                            ]
+                        }
+                    ],
+                    "spacing": "Medium"
+                },
+                {
+                    "type": "ColumnSet",
+                    "$data": "${value}",
+                    "columns": [
+                        {
+                            "type": "Column",
+                            "width": "90px",
+                            "minHeight": "90px",
+                            "items": [
+                                {
+                                    "type": "Container",
+                                    "backgroundImage": {
+                                        "url": "${Imagen.Url}",
+                                        "horizontalAlignment": "Center",
+                                        "verticalAlignment": "Center"
+                                    },
+                                    "minHeight": "90px",
+                                    "horizontalAlignment": "Center",
+                                    "verticalContentAlignment": "Center"
+                                }
+                            ],
+                            "verticalContentAlignment": "Center",
+                            "horizontalAlignment": "Left"
+                        },
+                        {
+                            "type": "Column",
+                            "width": "auto",
+                            
+                            "items": [
+                                {
+                                    "type": "TextBlock",
+                                    "text": "${Title}",
+                                    "wrap": true,
+                                    "weight": "Bolder",
+                                    "size": "Medium"
+                                },
+                                {
+                                    "type": "TextBlock",
+                                    "text": "${Tags[0]}",
+                                    "wrap": true,
+                                    "color": "accent",
+                                    "size": "Small",
+                                    "spacing": "Small"
+                                },
+                                {
+                                    "type": "TextBlock",
+                                    "text": "${Descripcion}",
+                                    "isSubtle": true,
+                                    "wrap": true,
+                                    "spacing": "Small",
+                                    "maxLines": 2
+                                }
+                            ],
+                            "verticalContentAlignment": "Center"
+                        }
+                    ],
+                    "selectAction": {
+                        "type": "Action.ToggleVisibility"
+                    }
+                }
+            ],
+            "spacing": "Medium",
+            "id": "tab_menu"
+        },
+        {
+            "type": "Container",
+            "items": [
+                {
+                    "type": "Container",
+                    "minHeight": "24px",
+                    "items": [
+                        {
+                            "type": "ColumnSet",
+                            "columns": [
+                                {
+                                    "type": "Column",
+                                    "width": "stretch",
+                                    "items": [
+                                        {
+                                            "type": "TextBlock",
+                                            "text": "MENÚ",
+                                            "wrap": true,
+                                            "weight": "Bolder",
+                                            "horizontalAlignment": "Center",
+                                            "color": "Accent"
+                                        },
+                                        {
+                                            "type": "Container",
+                                            "backgroundImage": {
+                                                "url": "https://raw.githubusercontent.com/pnp/AdaptiveCards-Templates/main/samples/visual-list/assets/line_pivot_dark.svg",
+                                                "fillMode": "RepeatHorizontally",
+                                                "verticalAlignment": "Center"
+                                            },
+                                            "minHeight": "8px",
+                                            "spacing": "None",
+                                            "isVisible": false
+                                        }
+                                    ],
+                                    "horizontalAlignment": "Center",
+                                    "minHeight": "44px",
+                                    "verticalContentAlignment": "Top",
+                                    "id": "show_menu",
+                                    "selectAction": {
+                                        "type": "Action.ToggleVisibility",
+                                        "targetElements": [
+                                            "tab_info",
+                                            "tab_menu"
+                                        ]
+                                    }
+                                },
+                                {
+                                    "type": "Column",
+                                    "width": "stretch",
+                                    "items": [
+                                        {
+                                            "type": "TextBlock",
+                                            "text": "INFO",
+                                            "wrap": true,
+                                            "horizontalAlignment": "Center",
+                                            "weight": "Bolder",
+                                            "color": "Default"
+                                        },
+                                        {
+                                            "type": "Container",
+                                            "backgroundImage": {
+                                                "url": "https://raw.githubusercontent.com/pnp/AdaptiveCards-Templates/main/samples/visual-list/assets/line_pivot_dark.svg",
+                                                "fillMode": "RepeatHorizontally",
+                                                "verticalAlignment": "Center"
+                                            },
+                                            "minHeight": "8px",
+                                            "spacing": "None"
+                                        }
+                                    ],
+                                    "minHeight": "44px",
+                                    "verticalContentAlignment": "Top"
+                                }
+                            ]
+                        }
+                    ],
+                    "spacing": "Medium"
+                },
+                {
+                    "type": "Container",
+                    "backgroundImage": {
+                        "url": "https://i.pinimg.com/originals/77/27/7f/77277f57b513e7fd712fc4e2a3eb1914.jpg"
+                    },
+                    "minHeight": "200px"
+                },
+                {
+                    "type": "ColumnSet",
+                    "columns": [
+                        {
+                            "type": "Column",
+                            "width": "16px",
+                            "minHeight": "20px",
+                            "backgroundImage": {
+                                "url": "https://raw.githubusercontent.com/pnp/AdaptiveCards-Templates/main/samples/visual-list/assets/icn_hours.svg"
+                            }
+                        },
+                        {
+                            "type": "Column",
+                            "width": "stretch",
+                            "verticalContentAlignment": "Center",
+                            "items": [
+                                {
+                                    "type": "TextBlock",
+                                    "text": "Abierto 13:30 - 15:30, Lunes a Viernes",
+                                    "wrap": true,
+                                    "size": "Default",
+                                    "spacing": "Small"
+                                }
+                            ]
+                        }
+                    ],
+                    "spacing": "Medium"
+                },
+                {
+                    "type": "ColumnSet",
+                    "columns": [
+                        {
+                            "type": "Column",
+                            "width": "20px",
+                            "minHeight": "20px",
+                            "backgroundImage": {
+                                "url": "https://raw.githubusercontent.com/pnp/AdaptiveCards-Templates/main/samples/visual-list/assets/icn_location.svg"
+                            }
+                        },
+                        {
+                            "type": "Column",
+                            "width": "stretch",
+                            "items": [
+                                {
+                                    "type": "TextBlock",
+                                    "text": "Edificio Novus, planta baja",
+                                    "wrap": true,
+                                    "spacing": "Small"
+                                }
+                            ],
+                            "verticalContentAlignment": "Center"
+                        }
+                    ],
+                    "separator": true,
+                    "spacing": "Medium"
+                },
+                {
+                    "type": "ColumnSet",
+                    "columns": [
+                        {
+                            "type": "Column",
+                            "width": "20px",
+                            "minHeight": "20px",
+                            "backgroundImage": {
+                                "url": "https://raw.githubusercontent.com/pnp/AdaptiveCards-Templates/main/samples/visual-list/assets/icn_venues.svg"
+                            }
+                        },
+                        {
+                            "type": "Column",
+                            "width": "stretch",
+                            "items": [
+                                {
+                                    "type": "TextBlock",
+                                    "text": "Platos del día y menú diario",
+                                    "wrap": true,
+                                    "spacing": "Small"
+                                }
+                            ],
+                            "verticalContentAlignment": "Center"
+                        }
+                    ],
+                    "separator": true,
+                    "spacing": "Medium"
+                }
+            ],
+            "id": "tab_info",
+            "isVisible": false,
+            "spacing": "Medium"
+        }
+    ],
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "version": "1.5"
+}

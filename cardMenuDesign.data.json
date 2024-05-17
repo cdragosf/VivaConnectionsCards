@@ -1,0 +1,79 @@
+{
+    "value": [
+      {
+        "@odata.type": "#SP.Data.PlatosDiariosListItem",
+        "@odata.id": "9f6fe410-01fd-46fb-8da5-076caec92d63",
+        "@odata.etag": "\"9\"",
+        "@odata.editLink": "Web/Lists(guid'c0b09c0e-7401-474f-b6a9-5a90a8024090')/Items(1)",
+        "Title": "Tortilla de patata",
+        "Tags": [
+          "Entrante"
+        ],
+        "Descripcion": "Una deliciosa mezcla de huevo y patatas guisadas. ¡Un clásico!",
+        "Imagen": {
+          "Description": "https://xxxxxxxx.sharepoint.com/SiteAssets/Platos/th.jfif",
+          "Url": "https://xxxxxxxx.sharepoint.com/SiteAssets/Platos/th.jfif"
+        }
+      },
+      {
+        "@odata.type": "#SP.Data.PlatosDiariosListItem",
+        "@odata.id": "57445501-82fb-4a59-bcd1-a6c044f94326",
+        "@odata.etag": "\"5\"",
+        "@odata.editLink": "Web/Lists(guid'c0b09c0e-7401-474f-b6a9-5a90a8024090')/Items(2)",
+        "Title": "Croquetas de jamón",
+        "Tags": [
+          "Favorito"
+        ],
+        "Descripcion": "Pequeñas bolitas crujientes rellenas de jamón. Irresistibles!",
+        "Imagen": {
+          "Description": "https://xxxxxxxx.sharepoint.com/SiteAssets/Platos/croquetas-de-jamon-principal.jpg",
+          "Url": "https://xxxxxxxx.sharepoint.com/SiteAssets/Platos/croquetas-de-jamon-principal.jpg"
+        }
+      },
+      {
+        "@odata.type": "#SP.Data.PlatosDiariosListItem",
+        "@odata.id": "feb686b7-a9ed-4fc7-9ae7-e42471807873",
+        "@odata.etag": "\"4\"",
+        "@odata.editLink": "Web/Lists(guid'c0b09c0e-7401-474f-b6a9-5a90a8024090')/Items(3)",
+        "Title": "Paella",
+        "Tags": [
+          "Plato único"
+        ],
+        "Descripcion": "Arroz con mariscos, pollo y azafrán. Un plato valenciano muy popular !",
+        "Imagen": {
+          "Description": "https://xxxxxxxx.sharepoint.com/SiteAssets/Platos/th%20(2).jfif",
+          "Url": "https://xxxxxxxx.sharepoint.com/SiteAssets/Platos/th%20(2).jfif"
+        }
+      },
+      {
+        "@odata.type": "#SP.Data.PlatosDiariosListItem",
+        "@odata.id": "79e4b1e9-dec2-40de-93da-e0c049787060",
+        "@odata.etag": "\"4\"",
+        "@odata.editLink": "Web/Lists(guid'c0b09c0e-7401-474f-b6a9-5a90a8024090')/Items(4)",
+        "Title": "Gazpacho",
+        "Tags": [
+          "Entrante"
+        ],
+        "Descripcion": "Sopa fría de tomate, pepino y pimiento. Ideal para el verano!",
+        "Imagen": {
+          "Description": "https://xxxxxxxx.sharepoint.com/SiteAssets/Platos/th%20(3).jfif",
+          "Url": "https://xxxxxxxx.sharepoint.com/SiteAssets/Platos/th%20(3).jfif"
+        }
+      },
+      {
+        "@odata.type": "#SP.Data.PlatosDiariosListItem",
+        "@odata.id": "5cc4af17-6e91-459e-bde3-5866a2b24389",
+        "@odata.etag": "\"4\"",
+        "@odata.editLink": "Web/Lists(guid'c0b09c0e-7401-474f-b6a9-5a90a8024090')/Items(5)",
+        "Title": "Patatas bravas",
+        "Tags": [
+          "Guarnición"
+        ],
+        "Descripcion": "Patatas fritas con salsa picante. Perfectas para compartir!",
+        "Imagen": {
+          "Description": "https://xxxxxxxx.sharepoint.com/SiteAssets/Platos/th%20(1).jfif",
+          "Url": "https://xxxxxxxx.sharepoint.com/SiteAssets/Platos/th%20(1).jfif"
+        }
+      }
+    ]
+  }
